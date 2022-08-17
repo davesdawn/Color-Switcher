@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    margin: auto;
+    padding: 8px;
+    border: solid black 2px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    font-size: 2rem;
+    
+}
+
+option {
+    font-size: 1.5rem;
+}
