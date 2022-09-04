@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    
 }
 
 .container{
@@ -26,4 +26,42 @@ body {
 
 option {
     font-size: 1.5rem;
+}
+
+#white{ 
+    background-color: white;
+
+}
+#yellow{ 
+    background-color: yellow;
+
+}
+#blue{ 
+    background-color: blue;
+
+}
+#red{ 
+    background-color: red;
+
+}
+#green{ 
+    background-color: green;
+
+}
+#black{ 
+    background-color: black;
+
+}
+#brown{ 
+    background-color: brown;
+
+}
+#purple{ 
+    background-color: purple;
+
+}
+
+#orange{ 
+    background-color: orange;
+
 }
