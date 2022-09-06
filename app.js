@@ -1,43 +1,13 @@
-//Color-Swticher
-const colors  = document.querySelectorAll(".colorOptions");
-const body = document.querySelector("body");
-console.log(colors);
-// console.log(body);
+//Colors-Swticher
 
-colors.forEach(function(color) {
-    color.addEventListener('change', function(event) {
-        console.log(event.target);
-        if (event.target.id === 'white'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'yellow'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'blue'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'red'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'green'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'black'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id === 'brown'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (eventtarget.id === 'purple'){
-            body.style.backgroundColor = e.target.id;
-        }
-        if (event.target.id == 'organe'){
-            body.style.backgroundColor = e.target.id;
-        }
-        
-    })
-})
+//Declaring a variable for ID mySelect
+const colors  = document.getElementById('mySelect');
 
+//callback function
+changeColor(colors);
 
-
-
+//function to change background color once option is changed
+function changeColor() {
+    let x = colors.value;
+    document.body.style.background = x;
+}    
