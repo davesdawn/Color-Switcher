@@ -3,7 +3,7 @@
 function changeColor() {
 
     //Declaring a variable for ID mySelect
-    const colors  = document.getElementById('mySelect');
-    let x = colors.value;
-    document.body.style.background = x;
+    const colors = document.getElementById('mySelect');
+    
+    document.body.style.background = colors.value;;
 }    
